@@ -22,3 +22,15 @@ STATIC_FOLDER = os.path.join(PLATFORM_DIR, 'server/static')
 TEMPLATE_FOLDER = os.path.join(PLATFORM_DIR, 'server/templates')
 STATIC_URL_PATH = '/backend'
 
+###
+# Database config
+###
+MYSQL_CONFIG = {
+    'zzgl_data': {  # 组织关联默认数据库
+        "host_port": [('127.0.0.1', 3306)],
+        "database": "test_data",
+        "user_name": "root",
+        "password": "willem1121"
+    },
+}
+
